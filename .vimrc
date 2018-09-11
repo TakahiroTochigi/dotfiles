@@ -102,14 +102,14 @@ if &compatible
     set nocompatible               " Be iMproved
 endif
 
-set runtimepath+=/home/tochigi/.cache/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 
-if dein#load_state('/home/tochigi/.cache/dein')
-    call dein#begin('/home/tochigi/.cache/dein')
+if dein#load_state('~/.cache/dein')
+    call dein#begin('~/.cache/dein')
 
     " Let dein manage dein
     " Required:
-    call dein#add('/home/tochigi/.cache/dein/repos/github.com/Shougo/dein.vim')
+    call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
     "Add or remove your plugins here:
     "molokaiカラースキーム
     call dein#add('tomasr/molokai')
